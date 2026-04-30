@@ -1,0 +1,10 @@
+student = {"name": "Aayush","age": 19,"branch": "Engineering","marks": 85}
+print("Original Dictionary:", student)
+print("Student Name:", student.get("name"))
+removed_value = student.pop("age")
+print("Removed Age:", removed_value)
+popitem = student.popitem()
+print("Pop item:", popitem)
+removed_value = student.clear()
+print("Removed Age:", removed_value)
+print("Final Dictionary:", student)

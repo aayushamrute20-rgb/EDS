@@ -1,0 +1,12 @@
+L = [12,34,67,45,88]
+print("Original List: ",L)
+L[2]=int(input("Update the mark of third student: "))
+n = int(input("update the marks of 4th student: "))
+L.insert(3,n)
+k = int(input("Enter the marks of 6th student: "))
+L.append(k)
+j = int(input("Enter the marks to remove: "))
+L.remove(j)
+p = int(input("remmove marks of nth student: "))
+L.pop(p-1)
+print("Updated list:",L)
